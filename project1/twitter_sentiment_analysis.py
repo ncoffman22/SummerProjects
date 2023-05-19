@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 # Author: Noah Coffman
 # Based on: https://github.com/llSourcell/twitter_sentiment_challenge
@@ -6,10 +6,10 @@
 import tweepy
 from textblob import TextBlob
 
-consumer_key = 
-consumer_secret = 
-access_token = 
-access_token_secret = 
+consumer_key =
+consumer_secret =
+access_token =
+access_token_secret =
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)

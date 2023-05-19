@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 # Noah Coffman
 # source code: https://github.com/llSourcell/gender_classification_challenge/blob/master/demo.py
 # Objective: Learn decision trees from sklearn
