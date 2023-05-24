@@ -19,8 +19,8 @@ ax.plot(greater_than_equal_2_hours.index, greater_than_equal_2_hours, label='Gre
 ax.set_xticks(data['Year'].unique())
 ax.set_xticklabels(data['Year'].unique(), rotation=45)
 ax.set_ylabel('Percentage')
-ax.set_title('Social Media Usage of Youths Aged 16-19 from 2012-2022')
+# ax.set_title('Social Media Usage of Youths Aged 16-19 from 2012-2022')
 ax.legend(title='Key')
 
-plt.figtext(0.5, 0.01, 'Based on yearly Q4 surveys from GlobalWebIndex 2023', ha='center', fontsize=6, va='center')
+# plt.figtext(0.5, 0.01, 'Based on yearly Q4 surveys from GlobalWebIndex 2023', ha='center', fontsize=6, va='center')
 plt.show()
